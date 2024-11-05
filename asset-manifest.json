@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QuartzQuest/static/css/main.3b4311f4.css",
+    "main.js": "/QuartzQuest/static/js/main.de7b831a.js",
+    "static/js/453.d352a8c8.chunk.js": "/QuartzQuest/static/js/453.d352a8c8.chunk.js",
+    "index.html": "/QuartzQuest/index.html",
+    "main.3b4311f4.css.map": "/QuartzQuest/static/css/main.3b4311f4.css.map",
+    "main.de7b831a.js.map": "/QuartzQuest/static/js/main.de7b831a.js.map",
+    "453.d352a8c8.chunk.js.map": "/QuartzQuest/static/js/453.d352a8c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b4311f4.css",
+    "static/js/main.de7b831a.js"
+  ]
+}
