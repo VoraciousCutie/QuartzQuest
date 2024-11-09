@@ -1,0 +1,18 @@
+  
+  /* Image */
+  .floating-logo {
+    max-width: 192px;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  
+  /* The animation code */
+  @keyframes float {
+    0%   {transform: translateY(0px);}
+    50%  {transform: translateY(-10px)}
+    100% {transform: translateY(0px);}
+  }
+  

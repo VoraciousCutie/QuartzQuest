@@ -1,19 +1,17 @@
-import './App.css';
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './routes';
+import Navbar from './components/modules/Navbar/Navbar';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <div className='intro-card'>
-        <div>
-          <h1>🔮Quartz Quest🔮</h1>
-          <h2>~ WIP ~</h2>
-        </div>
+    <Router>
+      <div className="app">
+        <Navbar />
+        <Routes />
       </div>
-
-      {/* Image may only work locally and not on gh pages */}
-      <img className='floating-logo' src="QuartzQuest/images/logo192.png" alt="Quartz Quest Logo"/>
-    </>
+    </Router>
   );
 }
 
