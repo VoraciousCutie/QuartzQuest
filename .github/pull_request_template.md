@@ -10,7 +10,7 @@ Closes [Issue num here]
 
 ### Checklist
 > Make sure these suckas are handled
-- [ ] Ensure project builds withoput warnings
+- [ ] Ensure project builds without warnings
 - [ ] Review code changes
 - [ ] Review user flow
 - [ ] npm test passes
