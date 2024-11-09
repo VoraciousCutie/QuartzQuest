@@ -3,52 +3,12 @@ body {
   background-color: #1e1e1e;;
 }
 
-.intro-card {
-  height: 10rem;
-  width: 30rem;
-  margin: 10vmin auto;
-  background-color: #754c8d; /* Dark background */
-  border-radius: 15px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Strong shadow for depth */
-  text-align: center;
-  color: #f9f9f9;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* Title text styles */
-.intro-card h1 {
-  font-size: 3em;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-shadow: 4px 4px 0px rgb(79, 51, 105);
-  margin: 0;
-  font-family: 'Nova Cut', sans-serif;
-}
-
-/* Subtitle and additional text styles */
-.intro-card h2 {
-  font-size: 1.2em;
-  margin: 0;
-  letter-spacing: 1px;
-  color: #cacaca;
-}
-
-/* Image */
-.floating-logo {
-  max-width: 192px;
-  animation-name: float;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-
-/* The animation code */
-@keyframes float {
-  0%   {transform: translateY(0px);}
-  50%  {transform: translateY(-10px)}
-  100% {transform: translateY(0px);}
+/* Prevent all images across the project from being draggable */
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
