@@ -3,7 +3,7 @@ import React from 'react';
 
 function App() {
   return (
-    <body>
+    <>
       <div className='intro-card'>
         <div>
           <h1>🔮Quartz Quest🔮</h1>
@@ -11,10 +11,9 @@ function App() {
         </div>
       </div>
 
-      {/* Image may only work locally and no on gh pages */}
+      {/* Image may only work locally and not on gh pages */}
       <img className='floating-logo' src="QuartzQuest/images/logo192.png" alt="Quartz Quest Logo"/>
-
-    </body>
+    </>
   );
 }
 
